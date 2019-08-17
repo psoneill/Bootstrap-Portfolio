@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/what-the-hex.png");
+}
+
+.navTitle {
+    background-color: rgb(35, 128, 50);
+    color: #eeeeee;
+    padding: 20px;
+    margin: 0% 0% 0% 16.3%;
+}
+
+.navbar-nav {
+    margin: 0% 20% 0% 0%;
+}
+
+nav a {
+    font-size: 18px;
+    border-right: 2px solid rgb(230, 229, 229);
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    color: #eeeeee;
+    background-color: rgb(42, 120, 236);
+    transition: 1s;
+}
+
+.navbar .navbar-nav .active:hover {
+    color: #eeeeee;
+    background-color:rgb(35, 128, 50);
+    transition: 1s;
+}
+
+nav a:last-child {
+    border-right:none;
+}
+
+.contactBody {
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color:#ffffff;
+}
+
+.contactTitle {
+    color:rgb(35, 128, 50);
+}
